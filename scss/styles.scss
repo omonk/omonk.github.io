@@ -1,0 +1,8 @@
+@import 'vendor/normalize';
+// @import '../node_modules/tachyons-sass/tachyons.scss';
+@import 'tachyons.scss';
+@import 'https://fonts.googleapis.com/css?family=Raleway:300,400,900';
+
+body {
+    color: $dark-gray;
+}
