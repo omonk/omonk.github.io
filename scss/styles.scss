@@ -1,8 +1,27 @@
 @import 'vendor/normalize';
 // @import '../node_modules/tachyons-sass/tachyons.scss';
 @import 'tachyons.scss';
-@import 'https://fonts.googleapis.com/css?family=Raleway:300,400,900';
+@import 'https://fonts.googleapis.com/css?family=Lexend+Deca|Share+Tech+Mono&display=swap';
+
+$text: #160c6f;
+$bg: #ebd597;
 
 body {
-    color: $dark-gray;
+  color: $text;
+  font-family: 'Share Tech Mono';
+  background: $bg;
+}
+
+.blue {
+  color: $text;
+}
+
+a.blue {
+  text-decoration: underline;
+}
+
+hr {
+  border-color: #05018a;
+  border-top: none;
+  opacity: 0.5;
 }

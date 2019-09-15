@@ -1,7 +1,8 @@
 {
-  "name": "RGS",
+  "name": "ollie-monk",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/omonk/rgs"
